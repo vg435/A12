@@ -29,7 +29,7 @@
         function checkCookie() {
             let user = getCookie("username");
             if (user != "") {
-                alert("Welcome again " + user + "!");
+                alert("Welcome back, " + user + "!");
             } else {
                 user = prompt("Please enter your name:","");
                 if (user != "" && user != null) {
@@ -42,6 +42,7 @@
 
 <body onload="checkCookie()">
 <h1>Cookie Collector</h1>
+<p>This website is designed to collect cookies.<br>Reload the page to test it out!</p>
 <img src="cookie.png" alt="picture of a cookie" class="cookie">
 <footer><p>&copy; Viktoria Gaiser, April 11, 2023.</p></footer>
 </body>
