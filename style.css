@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@700&family=Josefin+Sans&display=swap');
+
+body {
+    max-width: 1920px;
+    width: 80%
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    font-family: 'Gaegu', cursive;
+    font-size: 4em;
+    margin: 0 auto;
+}
+.cookie {
+    width: 30%;
+    min-width: 300px;
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em 0;
+}
+footer {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25em;
+    text-align: center;
+    padding-bottom: 0;
+    padding-top: 0.5em;
+}
